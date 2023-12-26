@@ -38,6 +38,7 @@ class Helper
         return $html;
     }
 
+    //show active or not in list menu
     public static function active($active =0) : string{
         return $active == 0 ? '<span class="btn btn-danger btn-xs">NO</span>'
             : '<span class="btn btn-success btn-xs">YES</span>';
